@@ -1,0 +1,61 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Arial";
+}
+
+body {
+	background-image: url('../images/western.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 850px;
+}
+
+
+#container {
+	position: absolute;
+	top: 15%;
+	left: 27%;
+	margin: auto;
+}
+
+#title {
+	font-size: 25px;
+	width: 600px;
+	margin-left: 2%;
+	text-align: center;
+	color: gold;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#header {
+	margin-left: 1%;
+	font-size: 20px;
+}
+
+.forms {
+	display: inline-block;
+	margin: 30px 0px 30px 7px;
+	border: 2px solid black;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+h2 {
+	color: gold;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#activities {
+	width: 450px;
+	height: 250px;
+	margin-left: 1%;
+}
+
+input {
+	background-color: grey;
+	padding: 4px;
+}
+
+textarea {
+	font-size: 15px;
+}
