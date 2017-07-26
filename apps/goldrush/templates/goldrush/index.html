@@ -2,18 +2,18 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-		<title>Prairie Gold Rush</title>
+		<title>Gold Rush</title>
 			{% load staticfiles %}
 		<link rel="stylesheet" href="{% static 'goldrush/css/style.css' %}">
 </head>
 <body>
 	<div id="container">
 		<div id="title">
-			<h1>Gold Rush on the Prairie</h1>
+			<h1>The California Gold Rush</h1>
 		</div>
 		<br>
 		<div id="header">
-			Your Gold: 
+			Your Gold:
 			<textarea rows="1" cols="10">{{ request.session.yourGold }}</textarea>
 		</div>
 
@@ -54,7 +54,7 @@
 				{% csrf_token %}
 				<input type="hidden" name="building" value="casino" />
 				<input type="submit" value="Find Gold!" />
-			</form>			
+			</form>
 		</div>
 		<div id="activities">
 			<h3>Activities: </h3>
